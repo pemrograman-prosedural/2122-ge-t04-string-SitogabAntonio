@@ -4,7 +4,7 @@
       "name": "t04-01-01",
       "setup": "make compile",
       "run": "make -s test_01",
-      "input": "Sweet\r\n2\r\n",
+      "input": "Sweet\r\n2",
       "output": "085121103103118\r\n",
       "comparison": "exact",
       "timeout": 1,
