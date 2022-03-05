@@ -1,5 +1,5 @@
-// NIM - Name
-// NIM - Name
+// 12S21015 - Sitogab Antonio Octavianus Girsang
+// 12S21049 - Jesika Audina Purba
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,7 +14,7 @@ int main(int _argv, char **_argc)
     int x;
     scanf("%d", &x);
     int leng=strlen(kata);
-    int number[leng];
+    int number[leng]; 
     char num[0];
     
     for (int i = 0; i<leng; i++){

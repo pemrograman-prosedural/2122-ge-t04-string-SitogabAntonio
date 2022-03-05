@@ -1,5 +1,5 @@
-// NIM - Name
-// NIM - Name
+// 12S21015 - Sitogab Antonio Octavianus Girsang
+// 12S21049 - Jesika Audina Purba
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,20 +9,20 @@
 int main(int _argv, char **_argc)
 {
   
-  char kata[50];
+   char kata[50];
     scanf("%s", &kata);
     int x;
     scanf("%d", &x);
-    int leng=strlen(kata);
+    int leng=strlen(kata); 
     int number[leng];
     char num[0];
     
-    for (int i = 0; i<leng; i++){
+    for (int i = 0; i<leng-1; i++){
         number[i]=(int) kata[i];
         x = x % 255;
         number[i]+=x;
     }
-    for (int i = 0; i < leng; i++)
+    for (int i = 0; i < leng-1; i++)
     {
         if (number[i]<100){
             sprintf(num, "%d", number[i]);
@@ -31,14 +31,11 @@ int main(int _argv, char **_argc)
             printf("%d", number[i]);
         }
     }
-    for (int i = 0; i < leng; i++)
+    for (int i = 0; i < leng-1; i++)
     {
         kata[i] = (char)number[i];
     }
-    printf("\n");
-    for (int i = 0; i < leng; i++){
-        printf("%c", kata[i]);
-    }
+
 
     
   return 0;
