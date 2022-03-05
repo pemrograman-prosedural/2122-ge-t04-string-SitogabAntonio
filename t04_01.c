@@ -35,6 +35,7 @@ char kata[50];
     {
         kata[i] = (char)number[i];
     }
+    
 
     
  return 0;
