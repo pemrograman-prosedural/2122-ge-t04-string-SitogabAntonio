@@ -34,7 +34,6 @@ int main(int _argv, char **_argc)
     for (int i = 0; i < leng; i++)
     {
         kata[i] = (char)number[i];
-        
     }
  return 0;
 

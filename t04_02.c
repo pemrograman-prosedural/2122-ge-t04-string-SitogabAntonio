@@ -39,9 +39,8 @@ int main(int _argv, char **_argc)
     for (int i = 0; i < leng; i++){
         printf("%c", kata[i]);
     }
-    
-    
 
+    
   return 0;
  
 }
