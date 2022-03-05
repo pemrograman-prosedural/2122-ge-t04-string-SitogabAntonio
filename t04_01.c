@@ -9,12 +9,12 @@
 int main(int _argv, char **_argc)
 {
 
- char kata[50];
+char kata[50];
     scanf("%s", &kata);
     int x;
     scanf("%d", &x);
-    int leng=strlen(kata);
-    int number[leng]; 
+    int leng=strlen(kata); 
+    int number[leng];
     char num[0];
     
     for (int i = 0; i<leng; i++){
@@ -35,7 +35,7 @@ int main(int _argv, char **_argc)
     {
         kata[i] = (char)number[i];
     }
-    
+
     
  return 0;
 
