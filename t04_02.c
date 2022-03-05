@@ -36,7 +36,6 @@ int main(int _argv, char **_argc)
         kata[i] = (char)number[i];
     }
 
-
     
   return 0;
  
