@@ -36,6 +36,12 @@ int main(int _argv, char **_argc)
         kata[i] = (char)number[i];
     }
 
+    printf("\n");
+    for (int i = 0; i < leng; i++){
+        printf("%c", kata[i]);
+
+    }
+
 
     
   return 0;
